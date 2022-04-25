@@ -1,0 +1,6 @@
+framework module Pods_EasyHabit {
+  umbrella header "Pods-EasyHabit-umbrella.h"
+
+  export *
+  module * { export * }
+}

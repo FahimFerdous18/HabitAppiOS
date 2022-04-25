@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Habit" representedClassName="Habit" syncable="YES">
+        <attribute name="fri" optional="YES" attributeType="String"/>
+        <attribute name="habitdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="habitdateData" optional="YES" attributeType="String"/>
+        <attribute name="habitimage" optional="YES" attributeType="String"/>
+        <attribute name="habitname" optional="YES" attributeType="String"/>
+        <attribute name="habitTime" optional="YES" attributeType="String"/>
+        <attribute name="mon" optional="YES" attributeType="String"/>
+        <attribute name="reminder" optional="YES" attributeType="String"/>
+        <attribute name="sat" optional="YES" attributeType="String"/>
+        <attribute name="sun" optional="YES" attributeType="String"/>
+        <attribute name="thu" optional="YES" attributeType="String"/>
+        <attribute name="timeDuration" optional="YES" attributeType="String"/>
+        <attribute name="tue" optional="YES" attributeType="String"/>
+        <attribute name="wed" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Journal" representedClassName="Journal" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <attribute name="emoji" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SaveInfo" representedClassName="SaveInfo" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="img" optional="YES" attributeType="Binary"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserInfoFinal" representedClassName="UserInfoFinal" syncable="YES" codeGenerationType="class">
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="wakeUpTime" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Journal" positionX="-63" positionY="18" width="128" height="104"/>
+        <element name="SaveInfo" positionX="-63" positionY="9" width="128" height="74"/>
+        <element name="UserInfoFinal" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="Habit" positionX="-63" positionY="36" width="128" height="239"/>
+    </elements>
+</model>

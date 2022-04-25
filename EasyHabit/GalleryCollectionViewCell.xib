@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="galleryCollectionView" id="gTV-IL-0wX" customClass="GalleryCollectionViewCell" customModule="EasyHabit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="85" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unsplash_VVEwJJRRHgk" translatesAutoresizingMaskIntoConstraints="NO" id="u5a-SY-a9b">
+                        <rect key="frame" x="0.0" y="0.0" width="85" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="Did-zS-uMH"/>
+                            <constraint firstAttribute="height" constant="90" id="WAg-7Y-CgO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CC-Rr-OSv">
+                        <rect key="frame" x="42" y="71" width="43" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="bfR-xU-Hu1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="1CC-Rr-OSv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="42" id="64A-DV-zBu"/>
+                <constraint firstAttribute="trailing" secondItem="1CC-Rr-OSv" secondAttribute="trailing" id="J6d-Lm-Jff"/>
+                <constraint firstItem="u5a-SY-a9b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NrE-k2-7Ag"/>
+                <constraint firstItem="u5a-SY-a9b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rfj-oE-hEs"/>
+                <constraint firstAttribute="bottom" secondItem="1CC-Rr-OSv" secondAttribute="bottom" constant="6" id="WEN-E1-Piq"/>
+                <constraint firstAttribute="trailing" secondItem="u5a-SY-a9b" secondAttribute="trailing" id="xkD-RK-k6o"/>
+            </constraints>
+            <size key="customSize" width="98" height="84"/>
+            <connections>
+                <outlet property="date" destination="1CC-Rr-OSv" id="Zui-nW-D9Y"/>
+                <outlet property="image" destination="u5a-SY-a9b" id="wLy-fd-UvL"/>
+            </connections>
+            <point key="canvasLocation" x="-376.08695652173918" y="-29.464285714285712"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="unsplash_VVEwJJRRHgk" width="91" height="91"/>
+    </resources>
+</document>

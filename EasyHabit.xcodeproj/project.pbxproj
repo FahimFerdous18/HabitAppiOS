@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8909376F27A0152000C4E0D5 /* SaveInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909376D27A0152000C4E0D5 /* SaveInfo+CoreDataClass.swift */; };
+		8909377027A0152000C4E0D5 /* SaveInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909376E27A0152000C4E0D5 /* SaveInfo+CoreDataProperties.swift */; };
+		8909377527A0245A00C4E0D5 /* GalleryFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909377427A0245A00C4E0D5 /* GalleryFilterViewController.swift */; };
+		8909377A27A02A4800C4E0D5 /* sharedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8909377927A02A4800C4E0D5 /* sharedata.swift */; };
+		894324B227A587E300394759 /* SetHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894324B127A587E300394759 /* SetHabitViewController.swift */; };
+		894324B727A5C78C00394759 /* Habit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894324B627A5C78C00394759 /* Habit+CoreDataProperties.swift */; };
+		894324BC27A5C79400394759 /* Habit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894324BB27A5C79400394759 /* Habit+CoreDataClass.swift */; };
+		894581BF279E8498000A5DC4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894581BE279E8498000A5DC4 /* File.swift */; };
+		894581C4279E9DDB000A5DC4 /* DMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894581C3279E9DDB000A5DC4 /* DMViewController.swift */; };
+		896B3A46279D2B9700CFEE2C /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B3A45279D2B9700CFEE2C /* UserInfoViewController.swift */; };
+		898AAE7B27A1190A0072A2D2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAE7A27A1190A0072A2D2 /* NewsViewController.swift */; };
+		898AAE8827A11CE70072A2D2 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAE8627A11CE70072A2D2 /* NewsCollectionViewCell.swift */; };
+		898AAE8927A11CE70072A2D2 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898AAE8727A11CE70072A2D2 /* NewsCollectionViewCell.xib */; };
+		898AAE9627A126930072A2D2 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAE9427A126930072A2D2 /* NewsTableViewCell.swift */; };
+		898AAE9727A126930072A2D2 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898AAE9527A126930072A2D2 /* NewsTableViewCell.xib */; };
+		898AAE9F27A12D2E0072A2D2 /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAE9E27A12D2E0072A2D2 /* TableModel.swift */; };
+		898AAEAF27A150BB0072A2D2 /* DeatilsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAEAE27A150BB0072A2D2 /* DeatilsNewsViewController.swift */; };
+		898AAEBA27A17B250072A2D2 /* NewsFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAEB927A17B250072A2D2 /* NewsFilterViewController.swift */; };
+		898AAEBF27A17F9B0072A2D2 /* NewsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAEBE27A17F9B0072A2D2 /* NewsFilter.swift */; };
+		898AAEC427A182860072A2D2 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AAEC327A182860072A2D2 /* PhotoDetailViewController.swift */; };
+		898B891827A3EF600023FF1B /* JournalFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B891727A3EF600023FF1B /* JournalFilterViewController.swift */; };
+		898B891D27A3F29B0023FF1B /* JournalFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898B891C27A3F29B0023FF1B /* JournalFilter.swift */; };
+		8996280C27A44A4B00DE2DD4 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996280B27A44A4B00DE2DD4 /* HabitViewController.swift */; };
+		8996281127A44ED400DE2DD4 /* ChooseHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996281027A44ED400DE2DD4 /* ChooseHabitViewController.swift */; };
+		8996281B27A44F8300DE2DD4 /* ChooseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996281927A44F8300DE2DD4 /* ChooseCollectionViewCell.swift */; };
+		8996281C27A44F8300DE2DD4 /* ChooseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8996281A27A44F8300DE2DD4 /* ChooseCollectionViewCell.xib */; };
+		8996282127A4650300DE2DD4 /* HabitChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996282027A4650300DE2DD4 /* HabitChoose.swift */; };
+		89A59C9D279C23D9001913C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A59C9C279C23D9001913C4 /* AppDelegate.swift */; };
+		89A59C9F279C23D9001913C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A59C9E279C23D9001913C4 /* SceneDelegate.swift */; };
+		89A59CA1279C23D9001913C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A59CA0279C23D9001913C4 /* ViewController.swift */; };
+		89A59CA4279C23D9001913C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A59CA2279C23D9001913C4 /* Main.storyboard */; };
+		89A59CA7279C23D9001913C4 /* EasyHabit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89A59CA5279C23D9001913C4 /* EasyHabit.xcdatamodeld */; };
+		89A59CA9279C23DC001913C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A59CA8279C23DC001913C4 /* Assets.xcassets */; };
+		89A59CAC279C23DC001913C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A59CAA279C23DC001913C4 /* LaunchScreen.storyboard */; };
+		89A59CB7279C23DC001913C4 /* EasyHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A59CB6279C23DC001913C4 /* EasyHabitTests.swift */; };
+		89A59CC2279C23DC001913C4 /* EasyHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A59CC1279C23DC001913C4 /* EasyHabitUITests.swift */; };
+		89DFFA8D27A2A2590075DFA1 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFFA8C27A2A2590075DFA1 /* JournalViewController.swift */; };
+		89DFFA9427A2A2A00075DFA1 /* JournalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFFA9227A2A2A00075DFA1 /* JournalCollectionViewCell.swift */; };
+		89DFFA9527A2A2A00075DFA1 /* JournalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89DFFA9327A2A2A00075DFA1 /* JournalCollectionViewCell.xib */; };
+		89DFFA9A27A2D23A0075DFA1 /* JournalAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFFA9927A2D23A0075DFA1 /* JournalAddViewController.swift */; };
+		89DFFAA727A31FC00075DFA1 /* Journal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFFAA627A31FC00075DFA1 /* Journal+CoreDataClass.swift */; };
+		89DFFAAC27A320190075DFA1 /* Journal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFFAAB27A320180075DFA1 /* Journal+CoreDataProperties.swift */; };
+		89DFFAB127A3384D0075DFA1 /* JournalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFFAB027A3384D0075DFA1 /* JournalDetailsViewController.swift */; };
+		89ECEDC7279FD8E100163783 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECEDC6279FD8E100163783 /* GalleryViewController.swift */; };
+		89ECEDCD279FD90200163783 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECEDCB279FD90200163783 /* GalleryCollectionViewCell.swift */; };
+		89ECEDCE279FD90200163783 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89ECEDCC279FD90200163783 /* GalleryCollectionViewCell.xib */; };
+		89ECEDD4279FE76600163783 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECEDD3279FE76600163783 /* Gallery.swift */; };
+		89ECEDE127A000E700163783 /* Databasehelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECEDE027A000E700163783 /* Databasehelper.swift */; };
+		B1D150376FE124C534397170 /* Pods_EasyHabit_EasyHabitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48AB857F9C9137E3986979FD /* Pods_EasyHabit_EasyHabitUITests.framework */; };
+		C8D030E7B5C1544F649F4265 /* Pods_EasyHabitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C2FB16B6707800636AC916 /* Pods_EasyHabitTests.framework */; };
+		FAD1E5FECAE3D1D07F4F5F0F /* Pods_EasyHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB818480157F4017E66253B /* Pods_EasyHabit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A59CB3279C23DC001913C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A59C91279C23D9001913C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A59C98279C23D9001913C4;
+			remoteInfo = EasyHabit;
+		};
+		89A59CBE279C23DC001913C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A59C91279C23D9001913C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A59C98279C23D9001913C4;
+			remoteInfo = EasyHabit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CB818480157F4017E66253B /* Pods_EasyHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		241D0787BF755DFCCEF2F033 /* Pods-EasyHabitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyHabitTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyHabitTests/Pods-EasyHabitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48AB857F9C9137E3986979FD /* Pods_EasyHabit_EasyHabitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyHabit_EasyHabitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8909376D27A0152000C4E0D5 /* SaveInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8909376E27A0152000C4E0D5 /* SaveInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaveInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8909377427A0245A00C4E0D5 /* GalleryFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryFilterViewController.swift; sourceTree = "<group>"; };
+		8909377927A02A4800C4E0D5 /* sharedata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharedata.swift; sourceTree = "<group>"; };
+		894324B127A587E300394759 /* SetHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetHabitViewController.swift; sourceTree = "<group>"; };
+		894324B627A5C78C00394759 /* Habit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Habit+CoreDataProperties.swift"; path = "/Users/bjit/Documents/FinalProject/JournalModule/EasyHabitJournal02/Habit+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		894324BB27A5C79400394759 /* Habit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Habit+CoreDataClass.swift"; path = "/Users/bjit/Documents/FinalProject/JournalModule/EasyHabitJournal02/Habit+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		894581BE279E8498000A5DC4 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		894581C3279E9DDB000A5DC4 /* DMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMViewController.swift; sourceTree = "<group>"; };
+		896B3A45279D2B9700CFEE2C /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		898AAE7A27A1190A0072A2D2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		898AAE8627A11CE70072A2D2 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		898AAE8727A11CE70072A2D2 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		898AAE9427A126930072A2D2 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		898AAE9527A126930072A2D2 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		898AAE9E27A12D2E0072A2D2 /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		898AAEAE27A150BB0072A2D2 /* DeatilsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatilsNewsViewController.swift; sourceTree = "<group>"; };
+		898AAEB927A17B250072A2D2 /* NewsFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFilterViewController.swift; sourceTree = "<group>"; };
+		898AAEBE27A17F9B0072A2D2 /* NewsFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFilter.swift; sourceTree = "<group>"; };
+		898AAEC327A182860072A2D2 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		898B891727A3EF600023FF1B /* JournalFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalFilterViewController.swift; sourceTree = "<group>"; };
+		898B891C27A3F29B0023FF1B /* JournalFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalFilter.swift; sourceTree = "<group>"; };
+		8996280B27A44A4B00DE2DD4 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
+		8996281027A44ED400DE2DD4 /* ChooseHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseHabitViewController.swift; sourceTree = "<group>"; };
+		8996281927A44F8300DE2DD4 /* ChooseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCollectionViewCell.swift; sourceTree = "<group>"; };
+		8996281A27A44F8300DE2DD4 /* ChooseCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseCollectionViewCell.xib; sourceTree = "<group>"; };
+		8996282027A4650300DE2DD4 /* HabitChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitChoose.swift; sourceTree = "<group>"; };
+		89A59C99279C23D9001913C4 /* EasyHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A59C9C279C23D9001913C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89A59C9E279C23D9001913C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89A59CA0279C23D9001913C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89A59CA3279C23D9001913C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89A59CA6279C23D9001913C4 /* EasyHabit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyHabit.xcdatamodel; sourceTree = "<group>"; };
+		89A59CA8279C23DC001913C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A59CAB279C23DC001913C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89A59CAD279C23DC001913C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A59CB2279C23DC001913C4 /* EasyHabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyHabitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A59CB6279C23DC001913C4 /* EasyHabitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyHabitTests.swift; sourceTree = "<group>"; };
+		89A59CB8279C23DC001913C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A59CBD279C23DC001913C4 /* EasyHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A59CC1279C23DC001913C4 /* EasyHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyHabitUITests.swift; sourceTree = "<group>"; };
+		89A59CC3279C23DC001913C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DFFA8C27A2A2590075DFA1 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		89DFFA9227A2A2A00075DFA1 /* JournalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalCollectionViewCell.swift; sourceTree = "<group>"; };
+		89DFFA9327A2A2A00075DFA1 /* JournalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalCollectionViewCell.xib; sourceTree = "<group>"; };
+		89DFFA9927A2D23A0075DFA1 /* JournalAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAddViewController.swift; sourceTree = "<group>"; };
+		89DFFAA627A31FC00075DFA1 /* Journal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Journal+CoreDataClass.swift"; path = "/Users/bjit/Documents/FinalProject/JournalModule/EasyHabitJournal02/Journal+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		89DFFAAB27A320180075DFA1 /* Journal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Journal+CoreDataProperties.swift"; path = "/Users/bjit/Documents/FinalProject/JournalModule/EasyHabitJournal02/Journal+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		89DFFAB027A3384D0075DFA1 /* JournalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailsViewController.swift; sourceTree = "<group>"; };
+		89ECEDC6279FD8E100163783 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		89ECEDCB279FD90200163783 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		89ECEDCC279FD90200163783 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		89ECEDD3279FE76600163783 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		89ECEDE027A000E700163783 /* Databasehelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasehelper.swift; sourceTree = "<group>"; };
+		907D656DC1C057E8E0E23764 /* Pods-EasyHabit-EasyHabitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyHabit-EasyHabitUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyHabit-EasyHabitUITests/Pods-EasyHabit-EasyHabitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98C2FB16B6707800636AC916 /* Pods_EasyHabitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyHabitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D27C7AEA1A3E10B3C05FE2E /* Pods-EasyHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyHabit.debug.xcconfig"; path = "Target Support Files/Pods-EasyHabit/Pods-EasyHabit.debug.xcconfig"; sourceTree = "<group>"; };
+		AFFAD7A16E824B6B40460D1B /* Pods-EasyHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyHabit.release.xcconfig"; path = "Target Support Files/Pods-EasyHabit/Pods-EasyHabit.release.xcconfig"; sourceTree = "<group>"; };
+		C73E2A1AECC05229BA4F014E /* Pods-EasyHabit-EasyHabitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyHabit-EasyHabitUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyHabit-EasyHabitUITests/Pods-EasyHabit-EasyHabitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE13F716E511E11DB3F7922E /* Pods-EasyHabitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyHabitTests.release.xcconfig"; path = "Target Support Files/Pods-EasyHabitTests/Pods-EasyHabitTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A59C96279C23D9001913C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD1E5FECAE3D1D07F4F5F0F /* Pods_EasyHabit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A59CAF279C23DC001913C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D030E7B5C1544F649F4265 /* Pods_EasyHabitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A59CBA279C23DC001913C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D150376FE124C534397170 /* Pods_EasyHabit_EasyHabitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73563FAEA1924103F509CD5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB818480157F4017E66253B /* Pods_EasyHabit.framework */,
+				48AB857F9C9137E3986979FD /* Pods_EasyHabit_EasyHabitUITests.framework */,
+				98C2FB16B6707800636AC916 /* Pods_EasyHabitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		898AAE8527A11CC60072A2D2 /* NewsC */ = {
+			isa = PBXGroup;
+			children = (
+				898AAE8627A11CE70072A2D2 /* NewsCollectionViewCell.swift */,
+				898AAE8727A11CE70072A2D2 /* NewsCollectionViewCell.xib */,
+			);
+			path = NewsC;
+			sourceTree = "<group>";
+		};
+		898AAE8D27A120B20072A2D2 /* NewsT */ = {
+			isa = PBXGroup;
+			children = (
+				898AAE9427A126930072A2D2 /* NewsTableViewCell.swift */,
+				898AAE9527A126930072A2D2 /* NewsTableViewCell.xib */,
+			);
+			path = NewsT;
+			sourceTree = "<group>";
+		};
+		8996281527A44EFA00DE2DD4 /* HabitCol */ = {
+			isa = PBXGroup;
+			children = (
+				8996281927A44F8300DE2DD4 /* ChooseCollectionViewCell.swift */,
+				8996281A27A44F8300DE2DD4 /* ChooseCollectionViewCell.xib */,
+			);
+			path = HabitCol;
+			sourceTree = "<group>";
+		};
+		89A59C90279C23D9001913C4 = {
+			isa = PBXGroup;
+			children = (
+				894324BB27A5C79400394759 /* Habit+CoreDataClass.swift */,
+				894324B627A5C78C00394759 /* Habit+CoreDataProperties.swift */,
+				89DFFAAB27A320180075DFA1 /* Journal+CoreDataProperties.swift */,
+				89DFFAA627A31FC00075DFA1 /* Journal+CoreDataClass.swift */,
+				8909376D27A0152000C4E0D5 /* SaveInfo+CoreDataClass.swift */,
+				8909376E27A0152000C4E0D5 /* SaveInfo+CoreDataProperties.swift */,
+				89A59C9B279C23D9001913C4 /* EasyHabit */,
+				89A59CB5279C23DC001913C4 /* EasyHabitTests */,
+				89A59CC0279C23DC001913C4 /* EasyHabitUITests */,
+				89A59C9A279C23D9001913C4 /* Products */,
+				D4F3938652FBE750A730D7D7 /* Pods */,
+				73563FAEA1924103F509CD5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89A59C9A279C23D9001913C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A59C99279C23D9001913C4 /* EasyHabit.app */,
+				89A59CB2279C23DC001913C4 /* EasyHabitTests.xctest */,
+				89A59CBD279C23DC001913C4 /* EasyHabitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A59C9B279C23D9001913C4 /* EasyHabit */ = {
+			isa = PBXGroup;
+			children = (
+				89ECEDD9279FE9E600163783 /* View */,
+				89ECEDD8279FE99400163783 /* Controller */,
+				89ECEDD2279FE75200163783 /* Model */,
+				89A59C9C279C23D9001913C4 /* AppDelegate.swift */,
+				89A59C9E279C23D9001913C4 /* SceneDelegate.swift */,
+				896B3A45279D2B9700CFEE2C /* UserInfoViewController.swift */,
+				89ECEDC6279FD8E100163783 /* GalleryViewController.swift */,
+				894581C3279E9DDB000A5DC4 /* DMViewController.swift */,
+				89A59CA0279C23D9001913C4 /* ViewController.swift */,
+				89ECEDCB279FD90200163783 /* GalleryCollectionViewCell.swift */,
+				89A59CA2279C23D9001913C4 /* Main.storyboard */,
+				89ECEDCC279FD90200163783 /* GalleryCollectionViewCell.xib */,
+				89A59CA8279C23DC001913C4 /* Assets.xcassets */,
+				89A59CAA279C23DC001913C4 /* LaunchScreen.storyboard */,
+				89A59CAD279C23DC001913C4 /* Info.plist */,
+				89A59CA5279C23D9001913C4 /* EasyHabit.xcdatamodeld */,
+				894581BE279E8498000A5DC4 /* File.swift */,
+				89ECEDE027A000E700163783 /* Databasehelper.swift */,
+				8909377427A0245A00C4E0D5 /* GalleryFilterViewController.swift */,
+				898AAE7A27A1190A0072A2D2 /* NewsViewController.swift */,
+			);
+			path = EasyHabit;
+			sourceTree = "<group>";
+		};
+		89A59CB5279C23DC001913C4 /* EasyHabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A59CB6279C23DC001913C4 /* EasyHabitTests.swift */,
+				89A59CB8279C23DC001913C4 /* Info.plist */,
+			);
+			path = EasyHabitTests;
+			sourceTree = "<group>";
+		};
+		89A59CC0279C23DC001913C4 /* EasyHabitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89A59CC1279C23DC001913C4 /* EasyHabitUITests.swift */,
+				89A59CC3279C23DC001913C4 /* Info.plist */,
+			);
+			path = EasyHabitUITests;
+			sourceTree = "<group>";
+		};
+		89DFFA9127A2A26D0075DFA1 /* JournalCol1 */ = {
+			isa = PBXGroup;
+			children = (
+				89DFFA9227A2A2A00075DFA1 /* JournalCollectionViewCell.swift */,
+				89DFFA9327A2A2A00075DFA1 /* JournalCollectionViewCell.xib */,
+			);
+			path = JournalCol1;
+			sourceTree = "<group>";
+		};
+		89ECEDD2279FE75200163783 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89ECEDD3279FE76600163783 /* Gallery.swift */,
+				8909377927A02A4800C4E0D5 /* sharedata.swift */,
+				898AAE9E27A12D2E0072A2D2 /* TableModel.swift */,
+				898AAEBE27A17F9B0072A2D2 /* NewsFilter.swift */,
+				898B891C27A3F29B0023FF1B /* JournalFilter.swift */,
+				8996282027A4650300DE2DD4 /* HabitChoose.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89ECEDD8279FE99400163783 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				898AAEAE27A150BB0072A2D2 /* DeatilsNewsViewController.swift */,
+				898AAEB927A17B250072A2D2 /* NewsFilterViewController.swift */,
+				898AAEC327A182860072A2D2 /* PhotoDetailViewController.swift */,
+				89DFFA8C27A2A2590075DFA1 /* JournalViewController.swift */,
+				89DFFA9927A2D23A0075DFA1 /* JournalAddViewController.swift */,
+				89DFFAB027A3384D0075DFA1 /* JournalDetailsViewController.swift */,
+				898B891727A3EF600023FF1B /* JournalFilterViewController.swift */,
+				8996280B27A44A4B00DE2DD4 /* HabitViewController.swift */,
+				8996281027A44ED400DE2DD4 /* ChooseHabitViewController.swift */,
+				894324B127A587E300394759 /* SetHabitViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89ECEDD9279FE9E600163783 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8996281527A44EFA00DE2DD4 /* HabitCol */,
+				89DFFA9127A2A26D0075DFA1 /* JournalCol1 */,
+				898AAE8D27A120B20072A2D2 /* NewsT */,
+				898AAE8527A11CC60072A2D2 /* NewsC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4F3938652FBE750A730D7D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D27C7AEA1A3E10B3C05FE2E /* Pods-EasyHabit.debug.xcconfig */,
+				AFFAD7A16E824B6B40460D1B /* Pods-EasyHabit.release.xcconfig */,
+				C73E2A1AECC05229BA4F014E /* Pods-EasyHabit-EasyHabitUITests.debug.xcconfig */,
+				907D656DC1C057E8E0E23764 /* Pods-EasyHabit-EasyHabitUITests.release.xcconfig */,
+				241D0787BF755DFCCEF2F033 /* Pods-EasyHabitTests.debug.xcconfig */,
+				DE13F716E511E11DB3F7922E /* Pods-EasyHabitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A59C98279C23D9001913C4 /* EasyHabit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A59CC6279C23DC001913C4 /* Build configuration list for PBXNativeTarget "EasyHabit" */;
+			buildPhases = (
+				65C8D86819FC847A23824E07 /* [CP] Check Pods Manifest.lock */,
+				89A59C95279C23D9001913C4 /* Sources */,
+				89A59C96279C23D9001913C4 /* Frameworks */,
+				89A59C97279C23D9001913C4 /* Resources */,
+				706B85918D786A2664674D8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyHabit;
+			productName = EasyHabit;
+			productReference = 89A59C99279C23D9001913C4 /* EasyHabit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A59CB1279C23DC001913C4 /* EasyHabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A59CC9279C23DC001913C4 /* Build configuration list for PBXNativeTarget "EasyHabitTests" */;
+			buildPhases = (
+				CC25AD2E2B8B8BCDCAFB755F /* [CP] Check Pods Manifest.lock */,
+				89A59CAE279C23DC001913C4 /* Sources */,
+				89A59CAF279C23DC001913C4 /* Frameworks */,
+				89A59CB0279C23DC001913C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A59CB4279C23DC001913C4 /* PBXTargetDependency */,
+			);
+			name = EasyHabitTests;
+			productName = EasyHabitTests;
+			productReference = 89A59CB2279C23DC001913C4 /* EasyHabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89A59CBC279C23DC001913C4 /* EasyHabitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A59CCC279C23DC001913C4 /* Build configuration list for PBXNativeTarget "EasyHabitUITests" */;
+			buildPhases = (
+				321DCFE2D0BB5253CC8A9F62 /* [CP] Check Pods Manifest.lock */,
+				89A59CB9279C23DC001913C4 /* Sources */,
+				89A59CBA279C23DC001913C4 /* Frameworks */,
+				89A59CBB279C23DC001913C4 /* Resources */,
+				12DDE88174B793A998AF3A41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A59CBF279C23DC001913C4 /* PBXTargetDependency */,
+			);
+			name = EasyHabitUITests;
+			productName = EasyHabitUITests;
+			productReference = 89A59CBD279C23DC001913C4 /* EasyHabitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A59C91279C23D9001913C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					89A59C98279C23D9001913C4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					89A59CB1279C23DC001913C4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 89A59C98279C23D9001913C4;
+					};
+					89A59CBC279C23DC001913C4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 89A59C98279C23D9001913C4;
+					};
+				};
+			};
+			buildConfigurationList = 89A59C94279C23D9001913C4 /* Build configuration list for PBXProject "EasyHabit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A59C90279C23D9001913C4;
+			productRefGroup = 89A59C9A279C23D9001913C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A59C98279C23D9001913C4 /* EasyHabit */,
+				89A59CB1279C23DC001913C4 /* EasyHabitTests */,
+				89A59CBC279C23DC001913C4 /* EasyHabitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A59C97279C23D9001913C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A59CAC279C23DC001913C4 /* LaunchScreen.storyboard in Resources */,
+				89ECEDCE279FD90200163783 /* GalleryCollectionViewCell.xib in Resources */,
+				89A59CA9279C23DC001913C4 /* Assets.xcassets in Resources */,
+				898AAE8927A11CE70072A2D2 /* NewsCollectionViewCell.xib in Resources */,
+				898AAE9727A126930072A2D2 /* NewsTableViewCell.xib in Resources */,
+				8996281C27A44F8300DE2DD4 /* ChooseCollectionViewCell.xib in Resources */,
+				89A59CA4279C23D9001913C4 /* Main.storyboard in Resources */,
+				89DFFA9527A2A2A00075DFA1 /* JournalCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A59CB0279C23DC001913C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A59CBB279C23DC001913C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DDE88174B793A998AF3A41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyHabit-EasyHabitUITests/Pods-EasyHabit-EasyHabitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyHabit-EasyHabitUITests/Pods-EasyHabit-EasyHabitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyHabit-EasyHabitUITests/Pods-EasyHabit-EasyHabitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321DCFE2D0BB5253CC8A9F62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyHabit-EasyHabitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C8D86819FC847A23824E07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyHabit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		706B85918D786A2664674D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyHabit/Pods-EasyHabit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyHabit/Pods-EasyHabit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyHabit/Pods-EasyHabit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC25AD2E2B8B8BCDCAFB755F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyHabitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A59C95279C23D9001913C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A59CA7279C23D9001913C4 /* EasyHabit.xcdatamodeld in Sources */,
+				894581BF279E8498000A5DC4 /* File.swift in Sources */,
+				8909376F27A0152000C4E0D5 /* SaveInfo+CoreDataClass.swift in Sources */,
+				89ECEDE127A000E700163783 /* Databasehelper.swift in Sources */,
+				894324BC27A5C79400394759 /* Habit+CoreDataClass.swift in Sources */,
+				898AAE8827A11CE70072A2D2 /* NewsCollectionViewCell.swift in Sources */,
+				89DFFA9427A2A2A00075DFA1 /* JournalCollectionViewCell.swift in Sources */,
+				89DFFAB127A3384D0075DFA1 /* JournalDetailsViewController.swift in Sources */,
+				89DFFAAC27A320190075DFA1 /* Journal+CoreDataProperties.swift in Sources */,
+				898B891D27A3F29B0023FF1B /* JournalFilter.swift in Sources */,
+				898AAE9F27A12D2E0072A2D2 /* TableModel.swift in Sources */,
+				894581C4279E9DDB000A5DC4 /* DMViewController.swift in Sources */,
+				8909377027A0152000C4E0D5 /* SaveInfo+CoreDataProperties.swift in Sources */,
+				898AAEBF27A17F9B0072A2D2 /* NewsFilter.swift in Sources */,
+				89A59CA1279C23D9001913C4 /* ViewController.swift in Sources */,
+				898AAE9627A126930072A2D2 /* NewsTableViewCell.swift in Sources */,
+				896B3A46279D2B9700CFEE2C /* UserInfoViewController.swift in Sources */,
+				89ECEDC7279FD8E100163783 /* GalleryViewController.swift in Sources */,
+				8909377A27A02A4800C4E0D5 /* sharedata.swift in Sources */,
+				89ECEDD4279FE76600163783 /* Gallery.swift in Sources */,
+				89A59C9D279C23D9001913C4 /* AppDelegate.swift in Sources */,
+				89DFFA8D27A2A2590075DFA1 /* JournalViewController.swift in Sources */,
+				8996282127A4650300DE2DD4 /* HabitChoose.swift in Sources */,
+				894324B227A587E300394759 /* SetHabitViewController.swift in Sources */,
+				898B891827A3EF600023FF1B /* JournalFilterViewController.swift in Sources */,
+				89DFFAA727A31FC00075DFA1 /* Journal+CoreDataClass.swift in Sources */,
+				89ECEDCD279FD90200163783 /* GalleryCollectionViewCell.swift in Sources */,
+				898AAEAF27A150BB0072A2D2 /* DeatilsNewsViewController.swift in Sources */,
+				898AAEC427A182860072A2D2 /* PhotoDetailViewController.swift in Sources */,
+				89A59C9F279C23D9001913C4 /* SceneDelegate.swift in Sources */,
+				894324B727A5C78C00394759 /* Habit+CoreDataProperties.swift in Sources */,
+				8996280C27A44A4B00DE2DD4 /* HabitViewController.swift in Sources */,
+				89DFFA9A27A2D23A0075DFA1 /* JournalAddViewController.swift in Sources */,
+				8909377527A0245A00C4E0D5 /* GalleryFilterViewController.swift in Sources */,
+				8996281127A44ED400DE2DD4 /* ChooseHabitViewController.swift in Sources */,
+				8996281B27A44F8300DE2DD4 /* ChooseCollectionViewCell.swift in Sources */,
+				898AAEBA27A17B250072A2D2 /* NewsFilterViewController.swift in Sources */,
+				898AAE7B27A1190A0072A2D2 /* NewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A59CAE279C23DC001913C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A59CB7279C23DC001913C4 /* EasyHabitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A59CB9279C23DC001913C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A59CC2279C23DC001913C4 /* EasyHabitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A59CB4279C23DC001913C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A59C98279C23D9001913C4 /* EasyHabit */;
+			targetProxy = 89A59CB3279C23DC001913C4 /* PBXContainerItemProxy */;
+		};
+		89A59CBF279C23DC001913C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A59C98279C23D9001913C4 /* EasyHabit */;
+			targetProxy = 89A59CBE279C23DC001913C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89A59CA2279C23D9001913C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A59CA3279C23D9001913C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89A59CAA279C23DC001913C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A59CAB279C23DC001913C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A59CC4279C23DC001913C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89A59CC5279C23DC001913C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A59CC7279C23DC001913C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D27C7AEA1A3E10B3C05FE2E /* Pods-EasyHabit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyHabit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.EasyHabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A59CC8279C23DC001913C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFAD7A16E824B6B40460D1B /* Pods-EasyHabit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyHabit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.EasyHabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89A59CCA279C23DC001913C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241D0787BF755DFCCEF2F033 /* Pods-EasyHabitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyHabitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.EasyHabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyHabit.app/EasyHabit";
+			};
+			name = Debug;
+		};
+		89A59CCB279C23DC001913C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE13F716E511E11DB3F7922E /* Pods-EasyHabitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyHabitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.EasyHabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyHabit.app/EasyHabit";
+			};
+			name = Release;
+		};
+		89A59CCD279C23DC001913C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73E2A1AECC05229BA4F014E /* Pods-EasyHabit-EasyHabitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyHabitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.EasyHabitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyHabit;
+			};
+			name = Debug;
+		};
+		89A59CCE279C23DC001913C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907D656DC1C057E8E0E23764 /* Pods-EasyHabit-EasyHabitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyHabitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swift.EasyHabitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyHabit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A59C94279C23D9001913C4 /* Build configuration list for PBXProject "EasyHabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A59CC4279C23DC001913C4 /* Debug */,
+				89A59CC5279C23DC001913C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A59CC6279C23DC001913C4 /* Build configuration list for PBXNativeTarget "EasyHabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A59CC7279C23DC001913C4 /* Debug */,
+				89A59CC8279C23DC001913C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A59CC9279C23DC001913C4 /* Build configuration list for PBXNativeTarget "EasyHabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A59CCA279C23DC001913C4 /* Debug */,
+				89A59CCB279C23DC001913C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A59CCC279C23DC001913C4 /* Build configuration list for PBXNativeTarget "EasyHabitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A59CCD279C23DC001913C4 /* Debug */,
+				89A59CCE279C23DC001913C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89A59CA5279C23D9001913C4 /* EasyHabit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89A59CA6279C23D9001913C4 /* EasyHabit.xcdatamodel */,
+			);
+			currentVersion = 89A59CA6279C23D9001913C4 /* EasyHabit.xcdatamodel */;
+			path = EasyHabit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89A59C91279C23D9001913C4 /* Project object */;
+}

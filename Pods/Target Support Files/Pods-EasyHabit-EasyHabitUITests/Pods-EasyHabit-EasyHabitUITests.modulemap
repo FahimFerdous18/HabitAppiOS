@@ -1,0 +1,6 @@
+framework module Pods_EasyHabit_EasyHabitUITests {
+  umbrella header "Pods-EasyHabit-EasyHabitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
